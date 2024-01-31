@@ -4,21 +4,23 @@
     "description": "",
     "main": "server.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
-      "express": "^4.17.1"
+        "express": "^4.18.2",
+        "fs": "^0.0.1-security",
+        "uuidv4": "^6.2.13"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ih8josh/note-taker.git"
+        "type": "git",
+        "url": "git+https://github.com/ih8josh/note-taker.git"
     },
     "keywords": [],
     "bugs": {
-      "url": "https://github.com/ih8josh/note-taker/issues"
+        "url": "https://github.com/ih8josh/note-taker/issues"
     },
     "homepage": "https://github.com/ih8josh/note-taker#readme"
-  }
+}
