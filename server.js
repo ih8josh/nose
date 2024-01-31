@@ -14,9 +14,9 @@ app.use(express.static("public"));
 
 // Routes
 // Use API routes defined in the 'api-routes.js' file
-app.use(apiRoutes);
+app.use("/", apiRoutes);
 // Use HTML routes defined in the 'html-routes.js' file
-app.use(htmlRoutes);
+app.use("/", htmlRoutes);
 
 
 // Global Error Handling Middleware
